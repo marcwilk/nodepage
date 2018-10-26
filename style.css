@@ -1,0 +1,207 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+}
+
+#logo {
+	display: block;
+	border: none;
+}
+
+a:active {
+	color: green;
+	text-decoration: underline;
+	border-radius: 2px;
+}
+
+a:link {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #ccc;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}
+
+header {
+	background-color: #333;
+	text-align: center;
+}
+
+header li {
+	position: relative;
+}
+
+.nav-foundation {
+	background-color: #026e00;
+}
+
+#logo img {
+	display: block;
+	margin: .5em auto 0 auto;
+	border: none;
+	max-height: 75px;
+	max-width: 180px;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+}
+
+.nav-list .no-border-right {
+	border-right: 0;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: center;
+	max-width: 800px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.nav-list li {
+	border-right: 1px solid #fff;
+	padding: 0px 15px;
+	margin: 0px;
+	text-align: center;
+}
+
+p {
+	display: block;
+}
+
+p a {
+	padding-left: 2px;
+    padding-right: 2px;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+#main {
+	color: black;
+}
+
+#home-intro a:link {
+	color: #026e00;
+}
+
+.button a:link {
+	color: white!important;
+}
+
+.mid a:link {
+	color: #026e00;
+}
+
+#home-intro {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.container {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 20px;
+}
+
+.linuxfoundation-footer {
+	padding: 1em 20px;
+	font-size: 14px;
+	color: #fff;
+	background: #333;
+	direction: ltr;
+}
+
+.issue-link-container {
+	display: flex;
+	align-items: center;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+a.container {
+	color: green;
+}
+
+footer a, footer a:link, a:active{
+	color: #ccc;
+}
+
+div {
+	display: block;
+}
+
+.linuxfoundation-logo {
+	width: 500px;
+}
+
+.issue-link {
+	float: right;
+}
+
+.button {
+    background-color: #026e00;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+}
+
+small {
+	font-size: 12px;
+}
+
+a, a:link, a:active {
+	text-decoration: none;
+}
+
+.list-divider-pipe {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#home-intro {
+	text-align: center;
+	color: black;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid {
+	text-align: center;
+}
+
+.pad-bottom {
+	padding-bottom: 60px;
+}
+
+.list-divider-pipe li {
+	display: inline-block;
+}
