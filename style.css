@@ -26,8 +26,10 @@ a:hover {
 }
 
 header {
+	display: block;
 	background-color: #333;
 	text-align: center;
+	flex-shrink: 0;
 }
 
 header li {
@@ -48,7 +50,12 @@ header li {
 
 ul {
 	display: block;
-	list-style-type: none;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
 }
 
 .nav-list .no-border-right {
@@ -56,11 +63,11 @@ ul {
 }
 
 .nav-list {
-	display: flex;
 	justify-content: center;
 	max-width: 800px;
 	margin: 0 auto;
 	padding-bottom: 15px;
+	padding-top: 10px;
 }
 
 .nav-list li {
@@ -76,9 +83,9 @@ p {
 
 p a {
 	padding-left: 2px;
-    padding-right: 2px;
-    margin-left: -2px;
-    margin-right: -2px;
+  padding-right: 2px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 
 #main {
@@ -154,6 +161,7 @@ div {
 
 .issue-link {
 	float: right;
+	padding-left: 50%;
 }
 
 .button {
@@ -177,10 +185,11 @@ a, a:link, a:active {
 	text-decoration: none;
 }
 
-.list-divider-pipe {
+.bottom-links {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: right;
+	justify-content: right;
+	list-style-type: none;
 }
 
 #home-intro {
